@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "icon"; /* Project id 3554424 */
+  src: url('iconfont.ttf?t=1659446005779') format('truetype');
+}
+
+.icon {
+  font-family: "icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before {
+  content: "\e6a6";
+}
+
+.icon-user-fill:before {
+  content: "\e7d5";
+}
+
+.icon-close:before {
+  content: "\e6e7";
+}
+
+.icon-minimize:before {
+  content: "\e6e8";
+}
+
+.icon-restore:before {
+  content: "\e6ea";
+}
+
+.icon-maximize:before {
+  content: "\e6e5";
+}
+
+.icon-chat:before {
+  content: "\e822";
+}
+
+.icon-chat1:before {
+  content: "\e823";
+}
+
+.icon-shoucang1:before {
+  content: "\e8b2";
+}
+
+.icon-shoucang:before {
+  content: "\e8b3";
+}
+
+.icon-setting:before {
+  content: "\e600";
+}
+
+.icon-tongxunlu:before {
+  content: "\e6c2";
+}
+
+.icon-tongxunlu1:before {
+  content: "\e6ae";
+}
+
