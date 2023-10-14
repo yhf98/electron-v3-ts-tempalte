@@ -5,8 +5,6 @@ import os from 'os'
 import { ipcRenderer } from "electron";
 defineProps<{ title?: string }>();
 
-let isMac = ref<boolean>(os.platform() == "darwin");
-
 let isMaximized = ref(false);
 let closeWindow = () => {
   ipcRenderer.invoke("closeWindow");
@@ -36,7 +34,7 @@ onUnmounted(() => {
 });
 </script>
 <template>
-  <div class="topBar" v-if="isMac">
+  <div class="topBar">
     <div class="winTitle">{{ title }}</div>
     <div class="winTool">
       <div @click="minimizeMainWindow">

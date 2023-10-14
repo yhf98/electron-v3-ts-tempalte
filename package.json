@@ -7,6 +7,7 @@
   "main": "index.js",
   "license": "ISC",
   "scripts": {
+    "install": "node ./lang.js",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "package": "vue-tsc --noEmit && vite build",
