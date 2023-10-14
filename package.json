@@ -35,6 +35,7 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
     "dp-image-editor": "^1.0.1",
+    "electron-log": "^4.4.8",
     "electron-store": "^8.1.0",
     "element-plus": "^2.3.9",
     "fs-extra": "^11.1.0",

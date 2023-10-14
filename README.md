@@ -1,8 +1,8 @@
 <!--
  * @Author: yaohengfeng 1921934563@qq.com
  * @Date: 2022-12-08 14:02:44
- * @LastEditors: 姚恒锋 1921934563@qq.com
- * @LastEditTime: 2023-09-05 11:01:42
+ * @LastEditors: yaohengfneg 1921934563@qq.com
+ * @LastEditTime: 2023-10-14 15:15:24
  * @FilePath: \electron-v3-ts-tempalte\README.md
  * @Description: 项目描述文件
 -->
@@ -28,4 +28,9 @@ npm run build
 npm cache clean -f
 ```
 
+
+## 日志目录
+```
+C:\Users\Administrator\AppData\Roaming\electron-v3-ts-tempalte\logs
+```
 
